@@ -1,5 +1,5 @@
 {
-  "name": "Range Slider Component",
+  "name": "RangeSliderComponent",
   "version": "0.0.1",
   "description": "Simple AngularJS 1.5.6 slider component that allows you to select range",
   "main": "index.js",
