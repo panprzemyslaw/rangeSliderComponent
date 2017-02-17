@@ -1,0 +1,57 @@
+.slider-container {
+  height: 20px;
+  margin-bottom: 10px;
+
+  .slider-label {
+    display: block;
+    float: left;
+  }
+
+  .slider-track {
+    float: left;
+    position: relative;
+    background: url("./components/RangeSlider/track.png") repeat-x;
+    margin: 0 10px 0 10px;
+    height: 20px;
+
+    .range {
+      position: absolute;
+      top:0;
+      left: 0;
+      background: url("./components/RangeSlider/range.png") repeat-x;
+      height: 20px;
+    }
+
+    .slider-handle {
+      position:absolute;
+      left: 0;
+      top: 0;
+      cursor: pointer;
+      .label {
+        display: block;
+        position: absolute;
+        top: -20px;
+        left: 5px;
+      }
+      .handle-min {
+        background: red;
+      }
+      .handle-max {
+        background: blue;
+      }
+      .handle {
+        width: 24px;
+        height: 24px;
+        padding-top: 4px;
+        border-radius: 3px 3px 3px 3px;
+        margin-top: -5px;
+        border: 1px solid #999;
+        background-image: linear-gradient(#fff,#E6E6E6);
+        background: url("./components/RangeSlider/handle.png");
+        background-size: contain;
+        background-position-x: 2px;
+      }
+    }
+  }
+
+}

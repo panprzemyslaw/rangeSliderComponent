@@ -1,0 +1,15 @@
+<div class="container">
+  <div class="range-slider">
+    <range-slider width="350" min-limit="0" max-limit="100" min-default-value="20" max-default-value="80" on-update="$ctrl.setData($event)"></range-slider>
+  </div>
+</div>
+
+<div class="data-info">
+  <div>
+    minValue: {{$ctrl.minValue}} <br/>
+    minHandleMinPos: {{$ctrl.minHandleLeftPos}} <br/>
+    <br/><br/>
+    maxValue: {{$ctrl.maxValue}} <br/>
+    maxHandleMinPos: {{$ctrl.maxHandleLeftPos}} <br/>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+<div class="slider-container">
+    <span class="slider-label">{{::$ctrl.minLimit}}</span>
+        <div class="slider-track">
+            <div class="slider-handle" ng-style="{'left': $ctrl.minHandleLeftPos + 'px'}">
+                <span class="label">{{$ctrl.minValue}}</span>
+                <div class="handle handle-min" ng-mousedown="$ctrl.dragStart($event)" ng-mouseup="$ctrl.dragEnd($event)"></div>
+            </div>
+            <div class="slider-handle handle" ng-style="{'left': $ctrl.maxHandleLeftPos + 'px'}">
+                <span class="label">{{$ctrl.maxValue}}</span>
+                <div class="handle handle-max" ng-mousedown="$ctrl.dragStart($event)" ng-mouseup="$ctrl.dragEnd($event)"></div>
+            </div>
+            <div class="range" ng-style="{'left': $ctrl.rangeLeftPos + 'px', 'width': $ctrl.rangeWidth + 'px'}"></div>
+        </div>
+    <span class="slider-label">{{::$ctrl.maxLimit}}</span>
+</div>
