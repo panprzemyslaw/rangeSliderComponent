@@ -2,6 +2,9 @@
 
 <img src="http://przemekzakoscielny.com/mytmp/projects/rangeSlider/rangeSlider.png" alt="Range Slider Component"/>
 
+# About
+This is Range Slider Component I created using AngularJS 1.5.6 + ES6
+
 # Getting Started
 ## Dependencies
 Tools needed to run this app:
