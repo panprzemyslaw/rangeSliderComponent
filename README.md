@@ -1,6 +1,6 @@
 <h1>Range Slider Component</h1>
 
-<img src="http://przemekzakoscielny.com/mytmp/projects/rangeSlider" alt="Range Slider Component"/>
+<img src="http://przemekzakoscielny.com/mytmp/projects/rangeSlider/rangeSlider.png" alt="Range Slider Component"/>
 
 # Getting Started
 ## Dependencies
